@@ -19,6 +19,7 @@ class kNN_classifier:
             self.data = preprocess(self.data)
         return self.data
     
+    # calculate the distance between two instances according to the distance metric
     def distance(self, x1, x2):
         if self.distance_metric == 'euclidean':
             return self.euclidean_distance(x1, x2)
@@ -109,7 +110,8 @@ def preprocess(data):
                 instance[key] = mapping[key][instance[key]]
     return data
  
-log = open("output.txt", "w")    
+ 
+log = open("log.txt", "w")    
 def main():
     # open dataset.json file and load the data
     data = None
