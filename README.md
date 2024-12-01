@@ -6,6 +6,7 @@ This project implements the k-NN algorithm from scratch to classify the **Play T
 ## Requirements
 - Python 3.x
 - NumPy (`pip install numpy`)
+- JSON (`pip install json`)
 
 ## Files
 - **`kNN_classifier.py`**: Main script.
