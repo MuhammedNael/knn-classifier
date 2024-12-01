@@ -36,104 +36,104 @@ K:  3
 Distance metric:  euclidean 
 
 Neighbors with distances
-{'Day': 1, 'Outlook': 0, 'Temperature': 0, 'Humidity': 0, 'Wind': 0, 'PlayTennis': 0} 0.0
-{'Day': 2, 'Outlook': 0, 'Temperature': 0, 'Humidity': 0, 'Wind': 1, 'PlayTennis': 0} 1.0
-{'Day': 3, 'Outlook': 1, 'Temperature': 0, 'Humidity': 0, 'Wind': 0, 'PlayTennis': 1} 1.0
-Predicted class:  0
-Actual class:  0 
+{'Outlook_Sunny': 1, 'Outlook_Overcast': 0, 'Outlook_Rain': 0, 'Temperature_Hot': 1, 'Temperature_Mild': 0, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 1, 'PlayTennis_Yes': 0} 0.0
+{'Outlook_Sunny': 1, 'Outlook_Overcast': 0, 'Outlook_Rain': 0, 'Temperature_Hot': 1, 'Temperature_Mild': 0, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 0, 'Wind_Strong': 1, 'PlayTennis_No': 1, 'PlayTennis_Yes': 0} 1.4142135623730951
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 1, 'Outlook_Rain': 0, 'Temperature_Hot': 1, 'Temperature_Mild': 0, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 1.4142135623730951
+Predicted class:  No
+Actual class:  No 
 
 Neighbors with distances
-{'Day': 2, 'Outlook': 0, 'Temperature': 0, 'Humidity': 0, 'Wind': 1, 'PlayTennis': 0} 0.0
-{'Day': 1, 'Outlook': 0, 'Temperature': 0, 'Humidity': 0, 'Wind': 0, 'PlayTennis': 0} 1.0
-{'Day': 3, 'Outlook': 1, 'Temperature': 0, 'Humidity': 0, 'Wind': 0, 'PlayTennis': 1} 1.4142135623730951
-Predicted class:  0
-Actual class:  0 
+{'Outlook_Sunny': 1, 'Outlook_Overcast': 0, 'Outlook_Rain': 0, 'Temperature_Hot': 1, 'Temperature_Mild': 0, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 0, 'Wind_Strong': 1, 'PlayTennis_No': 1, 'PlayTennis_Yes': 0} 0.0
+{'Outlook_Sunny': 1, 'Outlook_Overcast': 0, 'Outlook_Rain': 0, 'Temperature_Hot': 1, 'Temperature_Mild': 0, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 1, 'PlayTennis_Yes': 0} 1.4142135623730951
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 1, 'Outlook_Rain': 0, 'Temperature_Hot': 1, 'Temperature_Mild': 0, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 2.0
+Predicted class:  No
+Actual class:  No 
 
 Neighbors with distances
-{'Day': 3, 'Outlook': 1, 'Temperature': 0, 'Humidity': 0, 'Wind': 0, 'PlayTennis': 1} 0.0
-{'Day': 1, 'Outlook': 0, 'Temperature': 0, 'Humidity': 0, 'Wind': 0, 'PlayTennis': 0} 1.0
-{'Day': 13, 'Outlook': 1, 'Temperature': 0, 'Humidity': 1, 'Wind': 0, 'PlayTennis': 1} 1.0
-Predicted class:  1
-Actual class:  1 
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 1, 'Outlook_Rain': 0, 'Temperature_Hot': 1, 'Temperature_Mild': 0, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 0.0
+{'Outlook_Sunny': 1, 'Outlook_Overcast': 0, 'Outlook_Rain': 0, 'Temperature_Hot': 1, 'Temperature_Mild': 0, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 1, 'PlayTennis_Yes': 0} 1.4142135623730951
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 1, 'Outlook_Rain': 0, 'Temperature_Hot': 1, 'Temperature_Mild': 0, 'Temperature_Cool': 0, 'Humidity_High': 0, 'Humidity_Normal': 1, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 1.4142135623730951
+Predicted class:  Yes
+Actual class:  Yes 
 
 Neighbors with distances
-{'Day': 4, 'Outlook': 2, 'Temperature': 1, 'Humidity': 0, 'Wind': 0, 'PlayTennis': 1} 0.0
-{'Day': 10, 'Outlook': 2, 'Temperature': 1, 'Humidity': 1, 'Wind': 0, 'PlayTennis': 1} 1.0
-{'Day': 14, 'Outlook': 2, 'Temperature': 1, 'Humidity': 0, 'Wind': 1, 'PlayTennis': 0} 1.0
-Predicted class:  1
-Actual class:  1 
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 0, 'Outlook_Rain': 1, 'Temperature_Hot': 0, 'Temperature_Mild': 1, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 0.0
+{'Outlook_Sunny': 1, 'Outlook_Overcast': 0, 'Outlook_Rain': 0, 'Temperature_Hot': 0, 'Temperature_Mild': 1, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 1, 'PlayTennis_Yes': 0} 1.4142135623730951
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 0, 'Outlook_Rain': 1, 'Temperature_Hot': 0, 'Temperature_Mild': 1, 'Temperature_Cool': 0, 'Humidity_High': 0, 'Humidity_Normal': 1, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 1.4142135623730951
+Predicted class:  Yes
+Actual class:  Yes 
 
 Neighbors with distances
-{'Day': 5, 'Outlook': 2, 'Temperature': 2, 'Humidity': 1, 'Wind': 0, 'PlayTennis': 1} 0.0
-{'Day': 6, 'Outlook': 2, 'Temperature': 2, 'Humidity': 1, 'Wind': 1, 'PlayTennis': 0} 1.0
-{'Day': 10, 'Outlook': 2, 'Temperature': 1, 'Humidity': 1, 'Wind': 0, 'PlayTennis': 1} 1.0
-Predicted class:  1
-Actual class:  1 
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 0, 'Outlook_Rain': 1, 'Temperature_Hot': 0, 'Temperature_Mild': 0, 'Temperature_Cool': 1, 'Humidity_High': 0, 'Humidity_Normal': 1, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 0.0
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 0, 'Outlook_Rain': 1, 'Temperature_Hot': 0, 'Temperature_Mild': 0, 'Temperature_Cool': 1, 'Humidity_High': 0, 'Humidity_Normal': 1, 'Wind_Weak': 0, 'Wind_Strong': 1, 'PlayTennis_No': 1, 'PlayTennis_Yes': 0} 1.4142135623730951
+{'Outlook_Sunny': 1, 'Outlook_Overcast': 0, 'Outlook_Rain': 0, 'Temperature_Hot': 0, 'Temperature_Mild': 0, 'Temperature_Cool': 1, 'Humidity_High': 0, 'Humidity_Normal': 1, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 1.4142135623730951
+Predicted class:  Yes
+Actual class:  Yes 
 
 Neighbors with distances
-{'Day': 6, 'Outlook': 2, 'Temperature': 2, 'Humidity': 1, 'Wind': 1, 'PlayTennis': 0} 0.0
-{'Day': 5, 'Outlook': 2, 'Temperature': 2, 'Humidity': 1, 'Wind': 0, 'PlayTennis': 1} 1.0
-{'Day': 7, 'Outlook': 1, 'Temperature': 2, 'Humidity': 1, 'Wind': 1, 'PlayTennis': 1} 1.0
-Predicted class:  1
-Actual class:  0 
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 0, 'Outlook_Rain': 1, 'Temperature_Hot': 0, 'Temperature_Mild': 0, 'Temperature_Cool': 1, 'Humidity_High': 0, 'Humidity_Normal': 1, 'Wind_Weak': 0, 'Wind_Strong': 1, 'PlayTennis_No': 1, 'PlayTennis_Yes': 0} 0.0
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 0, 'Outlook_Rain': 1, 'Temperature_Hot': 0, 'Temperature_Mild': 0, 'Temperature_Cool': 1, 'Humidity_High': 0, 'Humidity_Normal': 1, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 1.4142135623730951
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 1, 'Outlook_Rain': 0, 'Temperature_Hot': 0, 'Temperature_Mild': 0, 'Temperature_Cool': 1, 'Humidity_High': 0, 'Humidity_Normal': 1, 'Wind_Weak': 0, 'Wind_Strong': 1, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 1.4142135623730951
+Predicted class:  Yes
+Actual class:  No 
 
 Neighbors with distances
-{'Day': 7, 'Outlook': 1, 'Temperature': 2, 'Humidity': 1, 'Wind': 1, 'PlayTennis': 1} 0.0
-{'Day': 6, 'Outlook': 2, 'Temperature': 2, 'Humidity': 1, 'Wind': 1, 'PlayTennis': 0} 1.0
-{'Day': 5, 'Outlook': 2, 'Temperature': 2, 'Humidity': 1, 'Wind': 0, 'PlayTennis': 1} 1.4142135623730951
-Predicted class:  1
-Actual class:  1 
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 1, 'Outlook_Rain': 0, 'Temperature_Hot': 0, 'Temperature_Mild': 0, 'Temperature_Cool': 1, 'Humidity_High': 0, 'Humidity_Normal': 1, 'Wind_Weak': 0, 'Wind_Strong': 1, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 0.0
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 0, 'Outlook_Rain': 1, 'Temperature_Hot': 0, 'Temperature_Mild': 0, 'Temperature_Cool': 1, 'Humidity_High': 0, 'Humidity_Normal': 1, 'Wind_Weak': 0, 'Wind_Strong': 1, 'PlayTennis_No': 1, 'PlayTennis_Yes': 0} 1.4142135623730951
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 0, 'Outlook_Rain': 1, 'Temperature_Hot': 0, 'Temperature_Mild': 0, 'Temperature_Cool': 1, 'Humidity_High': 0, 'Humidity_Normal': 1, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 2.0
+Predicted class:  Yes
+Actual class:  Yes 
 
 Neighbors with distances
-{'Day': 8, 'Outlook': 0, 'Temperature': 1, 'Humidity': 0, 'Wind': 0, 'PlayTennis': 0} 0.0
-{'Day': 1, 'Outlook': 0, 'Temperature': 0, 'Humidity': 0, 'Wind': 0, 'PlayTennis': 0} 1.0
-{'Day': 2, 'Outlook': 0, 'Temperature': 0, 'Humidity': 0, 'Wind': 1, 'PlayTennis': 0} 1.4142135623730951
-Predicted class:  0
-Actual class:  0 
+{'Outlook_Sunny': 1, 'Outlook_Overcast': 0, 'Outlook_Rain': 0, 'Temperature_Hot': 0, 'Temperature_Mild': 1, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 1, 'PlayTennis_Yes': 0} 0.0
+{'Outlook_Sunny': 1, 'Outlook_Overcast': 0, 'Outlook_Rain': 0, 'Temperature_Hot': 1, 'Temperature_Mild': 0, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 1, 'PlayTennis_Yes': 0} 1.4142135623730951
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 0, 'Outlook_Rain': 1, 'Temperature_Hot': 0, 'Temperature_Mild': 1, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 1.4142135623730951
+Predicted class:  No
+Actual class:  No 
 
 Neighbors with distances
-{'Day': 9, 'Outlook': 0, 'Temperature': 2, 'Humidity': 1, 'Wind': 0, 'PlayTennis': 1} 0.0
-{'Day': 7, 'Outlook': 1, 'Temperature': 2, 'Humidity': 1, 'Wind': 1, 'PlayTennis': 1} 1.4142135623730951
-{'Day': 8, 'Outlook': 0, 'Temperature': 1, 'Humidity': 0, 'Wind': 0, 'PlayTennis': 0} 1.4142135623730951
-Predicted class:  1
-Actual class:  1 
+{'Outlook_Sunny': 1, 'Outlook_Overcast': 0, 'Outlook_Rain': 0, 'Temperature_Hot': 0, 'Temperature_Mild': 0, 'Temperature_Cool': 1, 'Humidity_High': 0, 'Humidity_Normal': 1, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 0.0
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 0, 'Outlook_Rain': 1, 'Temperature_Hot': 0, 'Temperature_Mild': 0, 'Temperature_Cool': 1, 'Humidity_High': 0, 'Humidity_Normal': 1, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 1.4142135623730951
+{'Outlook_Sunny': 1, 'Outlook_Overcast': 0, 'Outlook_Rain': 0, 'Temperature_Hot': 1, 'Temperature_Mild': 0, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 1, 'PlayTennis_Yes': 0} 2.0
+Predicted class:  Yes
+Actual class:  Yes 
 
 Neighbors with distances
-{'Day': 10, 'Outlook': 2, 'Temperature': 1, 'Humidity': 1, 'Wind': 0, 'PlayTennis': 1} 0.0
-{'Day': 4, 'Outlook': 2, 'Temperature': 1, 'Humidity': 0, 'Wind': 0, 'PlayTennis': 1} 1.0
-{'Day': 5, 'Outlook': 2, 'Temperature': 2, 'Humidity': 1, 'Wind': 0, 'PlayTennis': 1} 1.0
-Predicted class:  1
-Actual class:  1 
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 0, 'Outlook_Rain': 1, 'Temperature_Hot': 0, 'Temperature_Mild': 1, 'Temperature_Cool': 0, 'Humidity_High': 0, 'Humidity_Normal': 1, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 0.0
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 0, 'Outlook_Rain': 1, 'Temperature_Hot': 0, 'Temperature_Mild': 1, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 1.4142135623730951
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 0, 'Outlook_Rain': 1, 'Temperature_Hot': 0, 'Temperature_Mild': 0, 'Temperature_Cool': 1, 'Humidity_High': 0, 'Humidity_Normal': 1, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 1.4142135623730951
+Predicted class:  Yes
+Actual class:  Yes 
 
 Neighbors with distances
-{'Day': 11, 'Outlook': 0, 'Temperature': 1, 'Humidity': 1, 'Wind': 1, 'PlayTennis': 1} 0.0
-{'Day': 2, 'Outlook': 0, 'Temperature': 0, 'Humidity': 0, 'Wind': 1, 'PlayTennis': 0} 1.4142135623730951
-{'Day': 7, 'Outlook': 1, 'Temperature': 2, 'Humidity': 1, 'Wind': 1, 'PlayTennis': 1} 1.4142135623730951
-Predicted class:  1
-Actual class:  1 
+{'Outlook_Sunny': 1, 'Outlook_Overcast': 0, 'Outlook_Rain': 0, 'Temperature_Hot': 0, 'Temperature_Mild': 1, 'Temperature_Cool': 0, 'Humidity_High': 0, 'Humidity_Normal': 1, 'Wind_Weak': 0, 'Wind_Strong': 1, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 0.0
+{'Outlook_Sunny': 1, 'Outlook_Overcast': 0, 'Outlook_Rain': 0, 'Temperature_Hot': 1, 'Temperature_Mild': 0, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 0, 'Wind_Strong': 1, 'PlayTennis_No': 1, 'PlayTennis_Yes': 0} 2.0
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 0, 'Outlook_Rain': 1, 'Temperature_Hot': 0, 'Temperature_Mild': 0, 'Temperature_Cool': 1, 'Humidity_High': 0, 'Humidity_Normal': 1, 'Wind_Weak': 0, 'Wind_Strong': 1, 'PlayTennis_No': 1, 'PlayTennis_Yes': 0} 2.0
+Predicted class:  No
+Actual class:  Yes 
 
 Neighbors with distances
-{'Day': 12, 'Outlook': 1, 'Temperature': 1, 'Humidity': 0, 'Wind': 1, 'PlayTennis': 1} 0.0
-{'Day': 14, 'Outlook': 2, 'Temperature': 1, 'Humidity': 0, 'Wind': 1, 'PlayTennis': 0} 1.0
-{'Day': 2, 'Outlook': 0, 'Temperature': 0, 'Humidity': 0, 'Wind': 1, 'PlayTennis': 0} 1.4142135623730951
-Predicted class:  0
-Actual class:  1 
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 1, 'Outlook_Rain': 0, 'Temperature_Hot': 0, 'Temperature_Mild': 1, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 0, 'Wind_Strong': 1, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 0.0
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 0, 'Outlook_Rain': 1, 'Temperature_Hot': 0, 'Temperature_Mild': 1, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 0, 'Wind_Strong': 1, 'PlayTennis_No': 1, 'PlayTennis_Yes': 0} 1.4142135623730951
+{'Outlook_Sunny': 1, 'Outlook_Overcast': 0, 'Outlook_Rain': 0, 'Temperature_Hot': 1, 'Temperature_Mild': 0, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 0, 'Wind_Strong': 1, 'PlayTennis_No': 1, 'PlayTennis_Yes': 0} 2.0
+Predicted class:  No
+Actual class:  Yes 
 
 Neighbors with distances
-{'Day': 13, 'Outlook': 1, 'Temperature': 0, 'Humidity': 1, 'Wind': 0, 'PlayTennis': 1} 0.0
-{'Day': 3, 'Outlook': 1, 'Temperature': 0, 'Humidity': 0, 'Wind': 0, 'PlayTennis': 1} 1.0
-{'Day': 1, 'Outlook': 0, 'Temperature': 0, 'Humidity': 0, 'Wind': 0, 'PlayTennis': 0} 1.4142135623730951
-Predicted class:  1
-Actual class:  1 
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 1, 'Outlook_Rain': 0, 'Temperature_Hot': 1, 'Temperature_Mild': 0, 'Temperature_Cool': 0, 'Humidity_High': 0, 'Humidity_Normal': 1, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 0.0
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 1, 'Outlook_Rain': 0, 'Temperature_Hot': 1, 'Temperature_Mild': 0, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 1.4142135623730951
+{'Outlook_Sunny': 1, 'Outlook_Overcast': 0, 'Outlook_Rain': 0, 'Temperature_Hot': 1, 'Temperature_Mild': 0, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 1, 'PlayTennis_Yes': 0} 2.0
+Predicted class:  Yes
+Actual class:  Yes 
 
 Neighbors with distances
-{'Day': 14, 'Outlook': 2, 'Temperature': 1, 'Humidity': 0, 'Wind': 1, 'PlayTennis': 0} 0.0
-{'Day': 4, 'Outlook': 2, 'Temperature': 1, 'Humidity': 0, 'Wind': 0, 'PlayTennis': 1} 1.0
-{'Day': 12, 'Outlook': 1, 'Temperature': 1, 'Humidity': 0, 'Wind': 1, 'PlayTennis': 1} 1.0
-Predicted class:  1
-Actual class:  0 
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 0, 'Outlook_Rain': 1, 'Temperature_Hot': 0, 'Temperature_Mild': 1, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 0, 'Wind_Strong': 1, 'PlayTennis_No': 1, 'PlayTennis_Yes': 0} 0.0
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 0, 'Outlook_Rain': 1, 'Temperature_Hot': 0, 'Temperature_Mild': 1, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 1, 'Wind_Strong': 0, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 1.4142135623730951
+{'Outlook_Sunny': 0, 'Outlook_Overcast': 1, 'Outlook_Rain': 0, 'Temperature_Hot': 0, 'Temperature_Mild': 1, 'Temperature_Cool': 0, 'Humidity_High': 1, 'Humidity_Normal': 0, 'Wind_Weak': 0, 'Wind_Strong': 1, 'PlayTennis_No': 0, 'PlayTennis_Yes': 1} 1.4142135623730951
+Predicted class:  Yes
+Actual class:  No 
 
 
 Confusion Matrix
-TP: 8, TN: 3, FP: 2, FN: 1
-Accuracy:  0.7857142857142857
+TP: 7, TN: 3, FP: 2, FN: 2
+Accuracy:  0.7142857142857143

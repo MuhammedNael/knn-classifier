@@ -1,7 +1,7 @@
 # k-Nearest Neighbor (k-NN) Classifier
 
 ## Overview
-This project implements the k-NN algorithm from scratch to classify the **Play Tennis** dataset. The program preprocesses the dataset, classifies instances, and evaluates performance with metrics like accuracy and a confusion matrix.
+This project implements the k-NN algorithm from scratch to classify the **Play Tennis** dataset. The program preprocesses the dataset, converts nominal attributes into numeric values using one-hot encoding, classifies instances, and evaluates performance with metrics like accuracy and a confusion matrix.
 
 ## Requirements
 - Python 3.x
